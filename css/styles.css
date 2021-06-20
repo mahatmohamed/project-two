@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #a4a2a2;
+    line-height: 1.4;
+    background-color: #f7f7f7;
+    text-align: center;
+ }
+ 
+ p {
+     font-size: 1.2em;
+     margin-bottom: 1.8em;
+ }
+ 
+ h2,
+ h3,
+ a {
+     color: #3a3a3a;
+ }
+ 
+ h2,
+ h3 {
+     margin-top: 0;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ img {
+    max-width: 100%;
+ }
+ 
+ ul {
+    list-style: none;
+    padding-left: 0;
+ }
+ 
+
+ 
+ .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+ }
+ 
+ 
+ /* ---- Containers ---- */
+ 
+ .main-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ 
+ .main-container:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ .main-container,
+ .main-container h2 {
+    color:rgb(142 136 136);
+ }
+ 
+ .main-container h1,
+ .main-container h2,
+ .main-container a {
+    color: #1a1918;
+ }
+ 
+ .main-nav a:hover {
+    font-weight: 700;
+    color: rgb(209, 150, 22);
+ }
+ 
+ .secondary-container {
+    background-color: #fff;
+ }
+ 
+ .container {
+    padding-right: 1em;
+    padding-left: 1em;
+    /*margin-bottom: 2em;*/
+ }
+ 
+ /* ---- Navigation ---- */
+ .name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+ }
+ 
+ .main-nav li {
+    background-color: #ffffff;
+    margin: .5em .5em;
+ }
+ 
+ .main-nav a {
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    padding: 13px 15px;
+ }
+ 
+ /* ---- About ---- */
+ 
+ .prof-img {
+    max-width: 367px;
+ }
+ 
+ /* ---- Portfolio ---- */
+ 
+ .portfolio {
+    padding-top: 2em;
+    padding-bottom: 1em;
+ }
+ 
+ .portfolio-list {
+    margin-top: 2.5em;
+ }
+ 
+ .portfolio-list li h3{
+    margin-top: 1.5em;
+    font-size: 1.6em;
+    font-weight: 600;
+ }
+ 
+ 
+ 
+ /* ---- Contact ---- */
+ 
+ .contact ul li{
+    font-size: 1.3em;
+ }
+ 
+ .contact li a {
+    color: #424240;
+    border-bottom: 2px #424240;
+ }
+ 
+ .contact li a:hover {
+    border-bottom: 3px #bd850d;
+ }
+ 
+ /* ---- Footer ---- */
+ .footer-name {
+    float: left;
+    font-size: 1.3em;
+ }
+ 
+ .footer-nav {
+    margin: 0;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+ 
+ footer nav {
+    border-top: 1px solid #fff;
+    padding-top: 1.5em;
+ }
+ 
+ .footer-desctop {
+    display: none;
+ }
+ 
+ 
+ @media (min-width: 768px) {
+ 
+    .container {
+       width: 95%;
+       margin: 0 auto;
+    }
+ 
+    .main-nav li {
+       display: inline-block;
+       background-color: inherit;
+    }
+ 
+    .about {
+       text-align: left;
+    }
+ 
+    .prof-img {
+       float: right;
+       padding-left: 1.2em;
+    }
+ 
+    .portfolio-list li {
+       float: left;
+       width: 46%;
+       margin: 2%;
+       font-size: .85em;
+    }
+ 
+    .portfolio-list li:nth-child(2n+1){
+       clear: both;
+    }
+ 
+    .portfolio-list li h3 {
+       margin-top: .8em;
+    }
+ 
+    .contact{
+       margin-top: 3em;
+       margin-bottom: 4em;
+    }
+ 
+    .footer-desctop {
+       display: block;
+    }
+ 
+    .footer-mobile {
+       display: none;
+    }
+ 
+    .footer-desctop li  a{
+       margin-right: 10px;
+    }
+ 
+ }
+ 
+ 
+ @media (min-width: 1024px) {
+ 
+    .main-container {
+       margin-top: 1em;
+    }
+ 
+    .container {
+       width: 85%;
+       max-width: 1150px;
+    }
+ 
+    .name {
+       float: left;
+    }
+ 
+    .main-nav{
+       float: right;
+    }
+ 
+    .portfolio-list li {
+       width: 28.3333%;
+    }
+ 
+    .portfolio-list li:nth-child(3n+1){
+       clear: both;
+    }
+ 
+    .portfolio-list li:nth-child(2n+1){
+       clear: none;
+    }
+ }
