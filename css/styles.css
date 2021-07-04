@@ -3,7 +3,7 @@
  }
  
  body {
-    font-family: 'Times New Roman', Times, serif;
+   font-family: 'Source Serif Pro', serif;
     color: #a4a2a2;
     line-height: 1.4;
     background-color: #f7f7f7;
@@ -105,9 +105,7 @@
  
  /* ---- About ---- */
  
- .prof-img {
-    max-width: 367px;
- }
+
  
  /* ---- Portfolio ---- */
  
